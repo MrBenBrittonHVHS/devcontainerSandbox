@@ -16,5 +16,6 @@
                 "gitdoc.enabled": true // BROKEN 
             }
         }
-    }
+    },
+    "postAttachCommand": "workbench.action.togglePanel"
 }
