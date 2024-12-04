@@ -13,7 +13,19 @@
             ],
             "settings": {
                 "gitdoc.commitValidationLevel": "none", // BROKEN 
-                "gitdoc.enabled": true // BROKEN 
+                "gitdoc.enabled": true, // BROKEN
+                "github.codespaces.devcontainerChangedNotificationStyle": "none",
+                "liveServer.settings.donotShowInfoMsg": true,
+                "workbench.panel.opensMaximized": "preserve"
+            }
+        },
+        {
+            "key": "alt+`",
+            "command": "runCommands",
+            "args": {
+                "commands": [
+                    "workbench.action.closePanel",
+                ]
             }
         }
     }
