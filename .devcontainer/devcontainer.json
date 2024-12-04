@@ -19,14 +19,6 @@
                 "workbench.panel.opensMaximized": "preserve"
             }
         },
-        {
-            "key": "alt+`",
-            "command": "runCommands",
-            "args": {
-                "commands": [
-                    "workbench.action.closePanel",
-                ]
-            }
-        }
+        "postAttachCommand":"workbench.action.togglePanel"
     }
 }
