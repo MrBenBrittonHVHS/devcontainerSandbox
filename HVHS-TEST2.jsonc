@@ -1,0 +1,28 @@
+/*
+Trying to get settings and command to work.
+*/
+
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "customizations": {
+        "codespaces": {
+            "openFiles": [ // Which file(s) to open by default
+            "index.html"
+            ]
+        },
+        "vscode": {
+            "extensions": [
+                "ritwickdey.LiveServer",  //  Install LiveServer to view pages
+                "vsls-contrib.gitdoc"	// BROKEN Install GitDoc
+            ],
+            "settings": {
+                "gitdoc.commitValidationLevel": "none", // BROKEN 
+                "gitdoc.enabled": true, // BROKEN
+                "github.codespaces.devcontainerChangedNotificationStyle": "none",
+                "liveServer.settings.donotShowInfoMsg": true,
+                "workbench.panel.opensMaximized": "preserve"
+            }
+        },
+        "postAttachCommand":"workbench.action.togglePanel"
+    }
+}
