@@ -12,11 +12,13 @@
                 "vsls-contrib.gitdoc"	// BROKEN Install GitDoc
             ],
             "settings": {
-                "editor.fontSize": 26,
+                "liveServer.settings.donotShowInfoMsg": true,
+                "gitdoc.commitValidationLevel": "none",
                 "gitdoc.enabled": true,
                 "files.exclude": {
                    ".*": true
-                }
+                },
+                "editor.fontSize": 26,
             }
         }
     }
