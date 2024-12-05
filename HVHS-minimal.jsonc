@@ -19,7 +19,6 @@
                     ".*": true,
                     "README.md": true,
                 },
-                "editor.fontSize": 26,
             }
         }
     }
