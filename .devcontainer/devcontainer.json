@@ -14,6 +14,9 @@
             "settings": {
                 "editor.fontSize": 26,
                 "gitdoc.enabled": true,
+                "files.exclude": {
+                   ".*": true
+                }
             }
         }
     }
