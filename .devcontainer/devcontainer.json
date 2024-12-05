@@ -20,7 +20,9 @@
                     "README.md": true,
                 },
                 "editor.fontSize": 26,
-            }
+            },
+                "postAttachCommand": "workbench.action.togglePanel"
+
         }
     }
 }
