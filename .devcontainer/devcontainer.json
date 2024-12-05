@@ -19,7 +19,7 @@
                     ".*": true,
                     "README.md": true,
                 },
-                "editor.fontSize": 26,
+                "editor.fontSize": 26, //DIAGNOSTIC
             },
                 "postAttachCommand": "workbench.action.togglePanel"
 
