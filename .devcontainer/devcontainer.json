@@ -12,7 +12,7 @@
                 "vsls-contrib.gitdoc"	// BROKEN Install GitDoc
             ],
             "settings": {
-                "liveServer.settings.donotShowInfoMsg": true,
+                "liveServer.settings.donotShowInfoMsg": true, // not working
                 "gitdoc.commitValidationLevel": "none",
                 "gitdoc.enabled": true,
                 "files.exclude": {
