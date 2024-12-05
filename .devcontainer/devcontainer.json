@@ -11,16 +11,6 @@
                 "ritwickdey.LiveServer",  //  Install LiveServer to view pages
                 "vsls-contrib.gitdoc"	// BROKEN Install GitDoc
             ],
-            "settings": {
-                "liveServer.settings.donotShowInfoMsg": true, // not working
-                "gitdoc.commitValidationLevel": "none",
-                "gitdoc.enabled": true,
-                "files.exclude": {
-                    ".*": true,
-                    "README.md": true,
-                },
-                "editor.fontSize": 26, //DIAGNOSTIC
-            },
                 "postAttachCommand": "workbench.action.togglePanel"
 
         }
