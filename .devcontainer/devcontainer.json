@@ -17,7 +17,7 @@
                 "gitdoc.commitValidationLevel": "none",
                 "gitdoc.enabled": true,
                 "files.exclude": {
-                    ".*": true,
+                   // ".*": true,
                     "README.md": true,
                 },
                 "editor.fontSize": 26, //DIAGNOSTIC
