@@ -1,0 +1,7 @@
+{
+    "liveServer.settings.donotShowInfoMsg": true, // not working
+"gitdoc.commitValidationLevel": "none",
+"gitdoc.enabled": true,
+"editor.fontSize": 26 // DIAGNOSTIC
+
+}

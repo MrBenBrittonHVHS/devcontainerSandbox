@@ -16,9 +16,9 @@
                 "gitdoc.commitValidationLevel": "none",
                 "gitdoc.enabled": true,
                 "files.exclude": {
-                    "README.md": true,
-                },
-                "editor.fontSize": 26, //DIAGNOSTIC
+                    "README.md": true
+                }
+            }
         }
     }
 }
