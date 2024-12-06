@@ -1,5 +1,5 @@
 /*
-Trying to get settings and command to work.
+Trying to get settings to work.
 */
 
 {
@@ -16,13 +16,15 @@ Trying to get settings and command to work.
                 "vsls-contrib.gitdoc"	// BROKEN Install GitDoc
             ],
             "settings": {
-                "gitdoc.commitValidationLevel": "none", // BROKEN 
-                "gitdoc.enabled": true, // BROKEN
-                "github.codespaces.devcontainerChangedNotificationStyle": "none",
-                "liveServer.settings.donotShowInfoMsg": true,
-                "workbench.panel.opensMaximized": "preserve"
+                "liveServer.settings.donotShowInfoMsg": true, //BROKEN
+                "gitdoc.commitValidationLevel": "none", //BROKEN
+                "gitdoc.enabled": true, //BROKEN
+ //               "files.exclude": {
+ //                   ".*": true,
+ //                   "README.md": true,
+ //               },
+                "editor.fontSize": 26 // DIAGNOSTIC
             }
-        },
-        "postAttachCommand":"workbench.action.togglePanel"
+        }
     }
 }

@@ -1,5 +1,5 @@
-// Setup for Y10 web design
-// This defaults to the index.html file and hides all the config files
+// Setup for Y12
+// This defaults to the index.html file but doesn't hide all the config files
 // copy the contents into .devcontainer/devcontainer.json
 // .vscode is not needed
 
@@ -15,16 +15,7 @@
             "extensions": [
                 "ritwickdey.LiveServer",  //  Install LiveServer to view pages
                 "vsls-contrib.gitdoc"	// BROKEN Install GitDoc
-            ],
-            "settings": {
-                "liveServer.settings.donotShowInfoMsg": true,
-                "gitdoc.commitValidationLevel": "none",
-                "gitdoc.enabled": true,
-                "files.exclude": {
-                    ".*": true,
-                    "README.md": true,
-                },
-            }
+            ]
         }
     }
 }
