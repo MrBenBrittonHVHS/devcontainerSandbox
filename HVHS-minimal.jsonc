@@ -21,7 +21,8 @@
                 "gitdoc.commitValidationLevel": "none",
                 "gitdoc.enabled": true,
                 "files.exclude": {
-                    ".*": true,
+                    ".devcontainer/*": true,
+                    ".devcontainer": true,
                     "README.md": true,
                 },
             }
