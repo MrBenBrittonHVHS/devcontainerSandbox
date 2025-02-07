@@ -1,7 +1,10 @@
-// Setup for Y10 web design
-// This defaults to the index.html file and hides all the config files
+// Setup for Senior COMP classes
+// This defaults to the index.html file
+// Starts up the live server
+// Exposes all the Codespaces config files (including this file)
+// Does not auto-commit
+//
 // copy the contents into .devcontainer/devcontainer.json
-// .vscode is not needed
 
 {
     "image": "mcr.microsoft.com/devcontainers/universal:2",
@@ -14,13 +17,13 @@
         "vscode": {
             "extensions": [
                 "ritwickdey.LiveServer",  //  Install LiveServer to view pages
-                "vsls-contrib.gitdoc"	// BROKEN Install GitDoc
+                "vsls-contrib.gitdoc"	// Auto commit
             ],
             "settings": {
                 "liveServer.settings.donotShowInfoMsg": true,
                 "gitdoc.commitValidationLevel": "none",
                 "gitdoc.enabled": true,
-                "files.exclude": {
+                "files.exclude": { // Hide these files
                     ".devcontainer/*": true,
                     ".devcontainer": true,
                     "README.md": true,
