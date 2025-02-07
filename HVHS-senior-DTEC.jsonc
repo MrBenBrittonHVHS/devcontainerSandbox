@@ -1,0 +1,30 @@
+// Setup for senior DTEC web design
+// This defaults to the index.html file
+// hides all the config files
+// Does not auto-commit
+//
+// copy the contents into .devcontainer/devcontainer.json
+
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "customizations": {
+        "codespaces": {
+            "openFiles": [ // Which file(s) to open by default
+            "index.html"
+            ]
+        },
+        "vscode": {
+            "extensions": [
+                "ritwickdey.LiveServer",  //  Install LiveServer to view pages
+            ],
+            "settings": {
+                "liveServer.settings.donotShowInfoMsg": true,
+                "files.exclude": {
+                    ".devcontainer/*": true,
+                    ".devcontainer": true,
+                    "README.md": true,
+                },
+            }
+        }
+    }
+}
