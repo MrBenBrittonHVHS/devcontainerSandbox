@@ -17,12 +17,9 @@
         "vscode": {
             "extensions": [
                 "ritwickdey.LiveServer",  //  Install LiveServer to view pages
-                "vsls-contrib.gitdoc"	// Auto commit
             ],
             "settings": {
                 "liveServer.settings.donotShowInfoMsg": true,
-                "gitdoc.commitValidationLevel": "none",
-                "gitdoc.enabled": true,
                 "files.exclude": { // Hide these files
                     ".devcontainer/*": true,
                     ".devcontainer": true,
