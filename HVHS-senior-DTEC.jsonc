@@ -1,7 +1,8 @@
-// Setup for senior DTEC web design
+// Setup for Senior DTEC classes
 // This defaults to the index.html file
-// hides all the config files
-// Does not auto-commit
+// Starts up the live server
+// Hides all the config files
+// Does not auto commit
 //
 // copy the contents into .devcontainer/devcontainer.json
 
@@ -19,7 +20,7 @@
             ],
             "settings": {
                 "liveServer.settings.donotShowInfoMsg": true,
-                "files.exclude": {
+                "files.exclude": { // Hide these files
                     ".devcontainer/*": true,
                     ".devcontainer": true,
                     "README.md": true,
