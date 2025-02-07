@@ -1,0 +1,34 @@
+// Setup for Y10 web design
+// This defaults to the index.html file
+// Starts up the live server
+// Hides all the config files
+// Auto-commits every 30 sec
+//
+// copy the contents into .devcontainer/devcontainer.json
+
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "customizations": {
+        "codespaces": {
+            "openFiles": [ // Which file(s) to open by default
+            "index.html"
+            ]
+        },
+        "vscode": {
+            "extensions": [
+                "ritwickdey.LiveServer",  //  Install LiveServer to view pages
+                "vsls-contrib.gitdoc"	// Auto commit
+            ],
+            "settings": {
+                "liveServer.settings.donotShowInfoMsg": true,
+                "gitdoc.commitValidationLevel": "none",
+                "gitdoc.enabled": true,
+                "files.exclude": { // Hide these files
+                    ".devcontainer/*": true,
+                    ".devcontainer": true,
+                    "README.md": true,
+                },
+            }
+        }
+    }
+}
